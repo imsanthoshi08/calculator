@@ -1,0 +1,27 @@
+.calc {
+  width: 260px;
+  margin: 40px auto;
+  padding: 12px;
+  border: 1px solid #888;
+  border-radius: 10px;
+}
+.display {
+  background: #222;
+  color: #fff;
+  padding: 10px;
+  text-align: right;
+  min-height: 50px;
+}
+.keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6px;
+  margin-top: 10px;
+}
+.keys button {
+  padding: 14px;
+  font-size: 18px;
+}
+.clear {
+  grid-column: span 4;
+}
